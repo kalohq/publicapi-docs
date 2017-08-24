@@ -78,8 +78,8 @@ passig the new status we want.
         "data": {
             "type": "task",
             "attributes": {
-                "status": "ongoing",
-            },
+                "status": "ongoing"
+            }
         }
     }
 ```
@@ -93,8 +93,8 @@ attribute we want to change with the right value in.
         "data": {
             "type": "task",
             "attributes": {
-                "summary": "New summary",
-            },
+                "summary": "New summary"
+            }
         }
     }
 ```
