@@ -7,8 +7,12 @@ test:
     - test 0 = 0
 
 deployment:
+  staging:
+    branch: develop
+    commands:
+      - aws s3 sync docs/ s3://developer-docs.kalohq.ink --delete
+
   master:
     branch: master
     commands:
-      - aws s3 sync . s3://developer-docs.kalohq.ink --delete
-      - aws s3 sync . s3://developer-docs.kalohq.com --delete
+      - aws s3 sync docs/ s3://developer-docs.kalohq.com --delete
