@@ -7,8 +7,16 @@ test:
     - test 0 = 0
 
 deployment:
-  master:
-    branch: master
+  any-branch:
+    ignore:
+      - master
+
     commands:
       - aws s3 sync . s3://developer-docs.kalohq.ink --delete
+
+  master:
+    only:
+      - master
+
+    commands:
       - aws s3 sync . s3://developer-docs.kalohq.com --delete
