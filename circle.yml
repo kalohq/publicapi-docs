@@ -7,9 +7,9 @@ test:
     - test 0 = 0
 
 deployment:
-  any-branch:
-    ignore:
-      - master
+  features:
+    only:
+      - /feature.*/
 
     commands:
       - aws s3 sync . s3://developer-docs.kalohq.ink --delete
