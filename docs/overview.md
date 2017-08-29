@@ -9,7 +9,8 @@ The base URL of the Kalo API is `https://api.kalohq.com/publicapi/`, and exposes
 - https://api.kalohq.com/publicapi/freelancers/
 
 ## Creating Kalo Apps
--In order to use the Kalo API, you’ll first need to create a Kalo app, going to the [kalo app management page](/apps/).
+
+In order to use the Kalo API, you’ll first need to create a Kalo app, going to the [kalo app management page](https://developers.kalohq.com/apps/create).
 You can think of a Kalo app as an integration point binto the Kalo platform.
 
 A Kalo app allows you to define one or more Kalo app keys.
