@@ -9,8 +9,8 @@ Task resources currently expose the following fields:
 - summary
 - description
 - rate
-- rate_type ['fixed' | 'daily' | 'hourly']
-- status ['ongoing' | 'completed']
+- rate_type (one of "fixed", "daily", "hourly")
+- status (one of "ongoing", "completed")
 - project
 
 # Endpoints
