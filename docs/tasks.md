@@ -18,7 +18,7 @@ Task resources currently expose the following fields:
 
 List all the available tasks.
 
-## GET /publicapi/tasks/<uuid:id>/
+## GET /publicapi/tasks/\<uuid:id\>/
 
 Fetch a task given by its UUID.
 
@@ -55,7 +55,7 @@ replace the right `project uuid` and the right `manager id`.
 }
 ```
 
-## PATCH /publicapi/tasks/<uuid:id>/
+## PATCH /publicapi/tasks/\<uuid:id\>/
 
 
 Modify a task sending partial information about the fields to change.
