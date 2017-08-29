@@ -14,6 +14,6 @@ Freelancer resources currently expose the following fields:
 
 List all the available tasks.
 
-## GET /publicapi/freelancers/<uuid:id>/
+## GET /publicapi/freelancers/\<uuid:id\>/
 
 Fetch a task given by its UUID.

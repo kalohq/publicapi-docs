@@ -15,7 +15,7 @@ Project resources currently expose the following fields:
 
 Get all projects.
 
-## GET /publicapi/projects/<uuid:id>/
+## GET /publicapi/projects/\<uuid:id\>/
 
 Get a single project by UUID.
 
