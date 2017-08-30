@@ -8,6 +8,7 @@ Project resources currently expose the following fields:
 - description
 - start_date
 - end_date
+- workgroup
 
 # Endpoint
 
@@ -37,3 +38,24 @@ Creates a new project, as shown in this example:
 }
 ```
 
+If you want to create a new project inside a certain workgroup you need to pass the right workgroup_id, for example:
+
+
+```json
+{
+  "data": {
+    "type": "project",
+    "attributes": {
+      "title": "Project with workgroup",
+      "description": "Project with workgroup",
+      "start_date": "2017-08-14",
+      "end_date": "2017-08-20"
+    },
+    "relationships": {
+      "workgroup": {
+        "data": {"type": "workgroup", "id": 100}
+      }
+    }
+  }
+}
+```
