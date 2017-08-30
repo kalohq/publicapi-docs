@@ -5,4 +5,4 @@ The Kalo API is a way to build integration between Kalo and any other system or 
 
 To start, you’ll need to create a Kalo app (“Kalo app” is a link to the kalo app management page).
 
-Head over to the [API Overview](/docs/api/overview) page for more details on the resources you can access via the Kalo API.
+Head over to the [API Overview](./overview.md) page for more details on the resources you can access via the Kalo API.
