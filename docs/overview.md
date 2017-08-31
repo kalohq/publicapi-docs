@@ -65,6 +65,12 @@ The general status codes you can expect from the API are the following:
     <!-- even if the given object would exist with that id if it's not part of that team -->
     <!-- we will still return 404 -->
 
+- **429: too many requests**
+  
+    You reached the limit of requests you can do to the API.  Please
+    try again later if you are testing manually or increase the
+    interval of your requests if they are generated automatically.
+
 - **500: server error**
 
     Most likely a bug in the Kalo API code, or something wrong in the request which should
