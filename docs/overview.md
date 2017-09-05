@@ -85,3 +85,39 @@ Allowed requests to the API can be split into these categories:
 | `/$resource/$id/` | `PATCH`  | Modify an existing resource                     |
 | `/$resource/`     | `POST`   | Create a new resource                           |
 
+## Pagination
+
+All the requests of the type `GET /$resource/` are **paginated**,
+which is a standard practice to avoid fetching too much data all at
+once.
+
+The current limit of resources fetched per call is currently `30`,
+so it means that for example to fetch 100 resources you need to do
+4 API calls, returning in order `30 + 30 + 30 + 10 == 100` resources.
+
+Pagination is controlled by passing two query arguments:
+
+- `page[offset]`: which indicates how many resources to skip
+- `page[limit]`:  which indicates the number of resources to get (max 30 as
+   mentioned above)
+
+
+To see an example, assume we have 100 projects and we need to get all
+of them, the API calls will be something like:
+
+1. `GET /publicapi/projects/` => resources 0-30
+2. `GET /publicapi/projects/?page[offset]=30` => resources 30-60
+3. `GET /publicapi/projects/?page[offset]=60` => resources 60-90
+4. `GET /publicapi/projects/?page[offset]=90` => resources 90-100
+
+To help the client understanding when all the resources are fetched
+each API response you will find two attributes `total` and `offset`.
+
+    {'meta': {'total': #tot-number-of-resources, 'offset': #offset-used}}
+
+With this information an easy way to fetch all the available resources would be:
+
+- keep track of the total from the first call.
+- keep track of the number of resources already fetched.
+- when the number of resources fetched `==` total, then all resources
+  were fetched correctly.
