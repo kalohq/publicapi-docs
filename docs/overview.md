@@ -108,12 +108,16 @@ of them, the API calls will be something like:
 1. `GET /publicapi/projects/` => resources 0-30
 2. `GET /publicapi/projects/?page[offset]=30` => resources 30-60
 3. `GET /publicapi/projects/?page[offset]=60` => resources 60-90
-4. `GET /publicapi/projects/?page[offset]=90` => resources 90=>100
+4. `GET /publicapi/projects/?page[offset]=90` => resources 90-100
 
 To help the client understanding when all the resources are fetched
 each API response you will find two attributes `total` and `offset`.
 
     {'meta': {'total': #tot-number-of-resources, 'offset': #offset-used}}
 
-So once the number of fetched resources is equal to the `total`
-returned by the API, it means that we are done.
+With this information an easy way to fetch all the available resources would be:
+
+- keep track of the total from the first call.
+- keep track of the number of resources already fetched.
+- when the number of resources fetched `==` total, then all resources
+  were fetched correctly.
