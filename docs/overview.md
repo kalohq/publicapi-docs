@@ -105,21 +105,10 @@ Pagination is controlled by passing two query arguments:
 To see an example, assume we have 100 projects and we need to get all
 of them, the API calls will be something like:
 
-1.
-
-    GET /publicapi/projects/ => resources 0-30
-
-2.
-
-    GET /publicapi/projects/?page[offset]=30 => resources 30-60
-
-3.
-
-    GET /publicapi/projects/?page[offset]=60 => resources 60-90
-
-3.
-
-    GET /publicapi/projects/?page[offset]=90 => resources 90=>100
+1. `GET /publicapi/projects/` => resources 0-30
+2. `GET /publicapi/projects/?page[offset]=30` => resources 30-60
+3. `GET /publicapi/projects/?page[offset]=60` => resources 60-90
+4. `GET /publicapi/projects/?page[offset]=90` => resources 90=>100
 
 To help the client understanding when all the resources are fetched
 each API response you will find two attributes `total` and `offset`.
