@@ -15,15 +15,15 @@ Task resources currently expose the following fields:
 
 # Endpoints
 
-## GET /publicapi/tasks/
+## GET /tasks/
 
 List all the available tasks.
 
-## GET /publicapi/tasks/\<uuid:id\>/
+## GET /tasks/\<uuid:id\>/
 
 Fetch a task given by its UUID.
 
-## POST /publicapi/tasks/
+## POST /tasks/
 
 Creates a new task, see this example request, where you have to
 replace the right `project uuid` and the right `manager id`.
@@ -56,7 +56,7 @@ replace the right `project uuid` and the right `manager id`.
 }
 ```
 
-## PATCH /publicapi/tasks/\<uuid:id\>/
+## PATCH /tasks/\<uuid:id\>/
 
 
 Modify a task sending partial information about the fields to change.

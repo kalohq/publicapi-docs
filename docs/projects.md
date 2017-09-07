@@ -12,15 +12,15 @@ Project resources currently expose the following fields:
 
 # Endpoint
 
-## GET /publicapi/projects/
+## GET /projects/
 
 Get all projects.
 
-## GET /publicapi/projects/\<uuid:id\>/
+## GET /projects/\<uuid:id\>/
 
 Get a single project by UUID.
 
-## POST /publicapi/projects/
+## POST /projects/
 
 Creates a new project, as shown in this example:
 

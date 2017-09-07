@@ -10,10 +10,10 @@ Freelancer resources currently expose the following fields:
 
 # Endpoints
 
-## GET /publicapi/freelancers/
+## GET /freelancers/
 
 List all the available tasks.
 
-## GET /publicapi/freelancers/\<uuid:id\>/
+## GET /freelancers/\<uuid:id\>/
 
 Fetch a task given by its UUID.

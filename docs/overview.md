@@ -2,11 +2,11 @@
 
 ## Kalo API
 
-The base URL of the Kalo API is `https://api.kalohq.com/publicapi/`, and exposes projects, tasks and freelancers at:
+The base URL of the Kalo API is `https://api.kalohq.com/`, and exposes projects, tasks and freelancers at:
 
-- https://api.kalohq.com/publicapi/projects/
-- https://api.kalohq.com/publicapi/tasks/
-- https://api.kalohq.com/publicapi/freelancers/
+- https://api.kalohq.com/projects/
+- https://api.kalohq.com/tasks/
+- https://api.kalohq.com/freelancers/
 
 ## Creating Kalo Apps
 
@@ -105,10 +105,10 @@ Pagination is controlled by passing two query arguments:
 To see an example, assume we have 100 projects and we need to get all
 of them, the API calls will be something like:
 
-1. `GET /publicapi/projects/` => resources 0-30
-2. `GET /publicapi/projects/?page[offset]=30` => resources 30-60
-3. `GET /publicapi/projects/?page[offset]=60` => resources 60-90
-4. `GET /publicapi/projects/?page[offset]=90` => resources 90-100
+1. `GET /projects/` => resources 0-30
+2. `GET /projects/?page[offset]=30` => resources 30-60
+3. `GET /projects/?page[offset]=60` => resources 60-90
+4. `GET /projects/?page[offset]=90` => resources 90-100
 
 To help the client understanding when all the resources are fetched
 each API response you will find two attributes `total` and `offset`.
