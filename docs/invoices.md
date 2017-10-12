@@ -7,9 +7,9 @@ Invoices are created either automatically or on-demand as a result of a freelanc
 - status
 - reference
 - vat
+- created_at
 - team
 - freelancer
-- created_at
 - task
 
 # Endpoints

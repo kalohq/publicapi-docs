@@ -12,3 +12,4 @@ And this if you need help with a specific resource:
 - [freelancer](./freelancers.md)
 - [projects](./projects.md)
 - [tasks](./tasks.md)
+- [invoices](./invoices.md)

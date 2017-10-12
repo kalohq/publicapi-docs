@@ -2,11 +2,12 @@
 
 ## Kalo API
 
-The base URL of the Kalo API is `https://api.kalohq.com/`, and exposes projects, tasks and freelancers at:
+The base URL of the Kalo API is `https://api.kalohq.com/`, and exposes projects, tasks, invoices and freelancers at:
 
 - https://api.kalohq.com/projects/
 - https://api.kalohq.com/tasks/
 - https://api.kalohq.com/freelancers/
+- https://api.kalohq.com/invoices/
 
 ## Creating Kalo Apps
 
