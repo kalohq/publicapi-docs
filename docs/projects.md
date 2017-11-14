@@ -18,7 +18,15 @@ Get all projects.
 
 ## GET /projects/\<uuid:id\>/
 
-Get a single project by UUID.
+Get a single project by ID.
+
+## GET /projects/\<uuid:id\>/tasks/
+
+List all the available tasks for a specific project
+
+## GET /projects/\<uuid:id\>/tasks/\<uuid:id\>/
+
+Get a single task by ID for a specific project
 
 ## POST /projects/
 
