@@ -25,6 +25,8 @@ Freelancer resources currently expose the following fields:
 - youtube
 
 
+The value of custom_data varries as a result of the set of onboarding templates assigned to the specific freelancer. The data will be returned as a collection of keys / values grouped by template name.
+
 # Endpoints
 
 ## GET /freelancers/
