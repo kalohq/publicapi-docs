@@ -22,6 +22,7 @@ export default ({data}) => {
 
   return (
     <article>
+      <Helmet title={`${post.frontmatter.title} - Kalo API`} />
       <StyledDocHeader>
         <h1>{post.frontmatter.title}</h1>
       </StyledDocHeader>

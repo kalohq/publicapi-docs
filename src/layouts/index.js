@@ -160,13 +160,6 @@ const TemplateWrapper = ({children, data}) => {
   return (
     <ThemeProvider theme={theme}>
       <div>
-        <Helmet
-          title="Gatsby Default Starter"
-          meta={[
-            {name: 'description', content: 'Sample'},
-            {name: 'keywords', content: 'sample, something'},
-          ]}
-        />
         <StyledFlexContainer>
           <Aside pages={pages} />
           <Main>{children()}</Main>
