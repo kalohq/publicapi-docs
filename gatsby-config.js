@@ -1,7 +1,7 @@
 module.exports = {
+  pathPrefix: `/publicapi-docs`,
   siteMetadata: {
     title: 'Kalo API Documentation',
-    pathPrefix: `/publicapi-docs`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
