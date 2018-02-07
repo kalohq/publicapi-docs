@@ -5,6 +5,7 @@ import {theme} from '@kalo/ui';
 import styled, {injectGlobal} from 'react-emotion';
 
 import Aside from '../components/aside';
+import Footer from '../components/footer';
 
 import FSPBlond from '../assets/fonts/FaktSoftPro-Blond.woff';
 import FSPBlond2 from '../assets/fonts/FaktSoftPro-Blond.woff2';
@@ -202,7 +203,9 @@ const TemplateWrapper = ({children, data}) => {
       <div>
         <StyledFlexContainer>
           <Aside pages={pages} />
-          <Main>{children()}</Main>
+          <Main>
+            {children()} <Footer />
+          </Main>
         </StyledFlexContainer>
       </div>
     </ThemeProvider>

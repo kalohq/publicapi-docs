@@ -2,9 +2,12 @@ import styled from 'react-emotion';
 
 export default styled('div')`
   h2 {
-    font-size: ${props => props.theme.typography.fontSizeHeadingMedium};
+    font-size: 22px;
     font-weight: 600;
     color: ${props => props.theme.colors.navy600};
+    border-bottom: 1px solid ${props => props.theme.colors.grey300};
+    padding-bottom: 8px;
+    margin-bottom: 16px;
   }
 
   p {
