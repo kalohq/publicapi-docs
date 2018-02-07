@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Kalo API Documentation',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

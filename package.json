@@ -22,16 +22,12 @@
     "react-hotkeys": "^0.10.0",
     "react-pure-render": "^1.0.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby", "Kalo API"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop"
   },
   "devDependencies": {
     "prettier": "^1.10.2"
