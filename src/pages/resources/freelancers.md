@@ -10,15 +10,29 @@ Freelancer resources currently expose the following fields:
 - name
 - email
 - telephone
+- country
+- city
+- area code
+- currency
 - next_available
-- show_availability
+- custom_data
+- daily_rate
+- hourly_rate
+- instagram
+- linkedin
+- twitter
+- website
+- youtube
+
+
+The value of custom_data varries as a result of the set of onboarding templates assigned to the specific freelancer. The data will be returned as a collection of keys / values grouped by template name.
 
 # Endpoints
 
 ## GET /freelancers/
 
-List all the available tasks.
+List all the available freelancers for the given team. The result is a paginated list of freelancers.
 
 ## GET /freelancers/\<uuid:id\>/
 
-Fetch a task given by its UUID.
+Retrienve a freelancer given the corresponding ID.
