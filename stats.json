@@ -1,0 +1,62 @@
+{
+  "assetsByChunkName": {
+    "component---src-templates-doc-page-js": [
+      "component---src-templates-doc-page-js-379f8815cb1abfa5f807.js",
+      "component---src-templates-doc-page-js-379f8815cb1abfa5f807.js.map"
+    ],
+    "path---resources-tasks": [
+      "path---resources-tasks-24582b8489a79620115f.js",
+      "path---resources-tasks-24582b8489a79620115f.js.map"
+    ],
+    "path---resources-projects": [
+      "path---resources-projects-27693565f10b3504cb91.js",
+      "path---resources-projects-27693565f10b3504cb91.js.map"
+    ],
+    "path---": [
+      "path----e862cc2fa3d08abc88bd.js",
+      "path----e862cc2fa3d08abc88bd.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-7793c0a4958c79bb843b.js",
+      "component---src-layouts-index-js-7793c0a4958c79bb843b.js.map"
+    ],
+    "path---resources-invoices": [
+      "path---resources-invoices-217b0e5a9c9c399fe51a.js",
+      "path---resources-invoices-217b0e5a9c9c399fe51a.js.map"
+    ],
+    "path---index": [
+      "path---index-71d1a3f56509d75bc90d.js",
+      "path---index-71d1a3f56509d75bc90d.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-bafe40c35a3beb6802f0.js",
+      "component---src-pages-404-js-bafe40c35a3beb6802f0.js.map"
+    ],
+    "commons": [
+      "commons-0c0200b7153d7ad0b051.js",
+      "commons-0c0200b7153d7ad0b051.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---overview": [
+      "path---overview-0af639b2a2668c87888b.js",
+      "path---overview-0af639b2a2668c87888b.js.map"
+    ],
+    "path---resources-freelancers": [
+      "path---resources-freelancers-937107d0ea8ac4a30e8b.js",
+      "path---resources-freelancers-937107d0ea8ac4a30e8b.js.map"
+    ],
+    "app": [
+      "app-9820b5649ac8cb7d4494.js",
+      "build-js-styles.css",
+      "app-9820b5649ac8cb7d4494.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
