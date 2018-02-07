@@ -1,0 +1,39 @@
+{
+  "name": "kalo-public-api-documentation",
+  "description": "Documentation site for the Kalo API",
+  "version": "1.0.0",
+  "author": "Kalo Engineering",
+  "dependencies": {
+    "@kalo/ui": "^0.12.0-3",
+    "classnames": "^2.2.5",
+    "emotion": "^9.0.0",
+    "emotion-server": "^9.0.0",
+    "emotion-theming": "^9.0.0",
+    "gatsby": "^1.9.158",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-emotion": "^1.1.11",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-remark-prismjs": "^1.2.12",
+    "gatsby-source-filesystem": "^1.5.18",
+    "gatsby-transformer-remark": "^1.7.30",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-emotion": "^9.0.0",
+    "react-helmet": "^5.2.0",
+    "react-hotkeys": "^0.10.0",
+    "react-pure-render": "^1.0.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  }
+}
