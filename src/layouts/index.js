@@ -6,6 +6,15 @@ import styled, {injectGlobal} from 'react-emotion';
 
 import Aside from '../components/aside';
 
+import FSPBlond from '../assets/fonts/FaktSoftPro-Blond.woff';
+import FSPBlond2 from '../assets/fonts/FaktSoftPro-Blond.woff2';
+import FSPNormal from '../assets/fonts/FaktSoftPro-Normal.woff';
+import FSPNormal2 from '../assets/fonts/FaktSoftPro-Normal.woff2';
+import FSPMedium from '../assets/fonts/FaktSoftPro-Medium.woff';
+import FSPMedium2 from '../assets/fonts/FaktSoftPro-Medium.woff2';
+import FSPSemiBold from '../assets/fonts/FaktSoftPro-SemiBold.woff';
+import FSPSemiBold2 from '../assets/fonts/FaktSoftPro-SemiBold.woff2';
+
 const StyledFlexContainer = styled('div')`
   width: 100%;
   display: flex;
@@ -19,6 +28,38 @@ const Main = styled('main')`
 `;
 
 injectGlobal`
+  @font-face {
+    font-family: 'WebFaktSoftPro';
+    font-weight: 300;
+    font-style: normal;
+    src: url(${FSPBlond}) format('woff'),
+      url(${FSPBlond2}) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'WebFaktSoftPro';
+    font-weight: 400;
+    font-style: normal;
+    src: url(${FSPNormal}) format('woff'),
+    url(${FSPNormal2}) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'WebFaktSoftPro';
+    font-weight: 500;
+    font-style: normal;
+    src: url(${FSPMedium}) format('woff'),
+    url(${FSPMedium2}) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'WebFaktSoftPro';
+    font-weight: 600;
+    font-style: normal;
+    src: url(${FSPSemiBold}) format('woff'),
+    url(${FSPSemiBold2}) format('woff2');
+  }
+
   html,
   body {
     margin: 0;
@@ -27,7 +68,7 @@ injectGlobal`
   }
 
   body {
-    font-family: 'Fakt Soft Pro', sans-serif;
+    font-family: 'WebFaktSoftPro', sans-serif;
     color: #546789;
   }
 
