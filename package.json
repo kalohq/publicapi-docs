@@ -22,14 +22,19 @@
     "react-hotkeys": "^0.10.0",
     "react-pure-render": "^1.0.2"
   },
-  "keywords": ["gatsby", "Kalo API"],
+  "keywords": [
+    "gatsby",
+    "Kalo API"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "prettier": "^1.10.2"
   }
 }
