@@ -7,6 +7,11 @@ export default styled('div')`
     color: ${props => props.theme.colors.navy600};
   }
 
+  p {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+
   table {
     width: 100%;
     position: relative;
