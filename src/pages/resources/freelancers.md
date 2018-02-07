@@ -1,3 +1,7 @@
+---
+title: "Freelancers"
+---
+
 # Fields
 
 Freelancers are the individual who work on the tasks defined in a project. 

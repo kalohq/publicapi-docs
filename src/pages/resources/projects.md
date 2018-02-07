@@ -1,4 +1,8 @@
-# Fields
+---
+title: "Projects"
+---
+
+## Fields
 
 Projects allow you to group your team’s work.
 Project resources currently expose the following fields:
@@ -10,25 +14,25 @@ Project resources currently expose the following fields:
 - end_date
 - workgroup
 
-# Endpoint
+## Endpoint
 
-## GET /projects/
+### GET /projects/
 
 Get all projects.
 
-## GET /projects/\<uuid:id\>/
+### GET /projects/\<uuid:id\>/
 
 Get a single project by ID.
 
-## GET /projects/\<uuid:id\>/tasks/
+### GET /projects/\<uuid:id\>/tasks/
 
 List all the available tasks for a specific project
 
-## GET /projects/\<uuid:id\>/tasks/\<uuid:id\>/
+### GET /projects/\<uuid:id\>/tasks/\<uuid:id\>/
 
 Get a single task by ID for a specific project
 
-## POST /projects/
+### POST /projects/
 
 Creates a new project, as shown in this example:
 

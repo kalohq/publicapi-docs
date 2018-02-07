@@ -1,11 +1,9 @@
 # Kalo API documentation
+The documentation site is built by Gatsby.
 
-The documentation is built by github pages and available here:
-https://kalohq.github.io/publicapi-docs/
+## Running locally:
 
-## Contributing
+- `npm install`
+- `npm run develop`
 
-Circleci will sync the docs from `/docs` to S3.
-
-Use the `develop` branch to get your changes synced to the staging AWS bucket, and `master` to sync to the production AWS bucket.
-Every other branch will simply be ignored by Circleci.
+To build a production build: `npm run build`

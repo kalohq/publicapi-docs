@@ -1,4 +1,8 @@
-# Fields
+---
+title: "Tasks"
+---
+
+## Fields
 
 Tasks are individual units of work that belong to projects, and are assigned to freelancers.
 
@@ -13,17 +17,17 @@ Task resources currently expose the following fields:
 - status (one of "ongoing", "completed")
 - project
 
-# Endpoints
+## Endpoints
 
-## GET /tasks/
+### GET /tasks/
 
 List all the available tasks.
 
-## GET /tasks/\<uuid:id\>/
+### GET /tasks/\<uuid:id\>/
 
 Fetch a task given by its UUID.
 
-## POST /tasks/
+### POST /tasks/
 
 Creates a new task, see this example request, where you have to
 replace the right `project uuid` and the right `manager id`.
@@ -56,7 +60,7 @@ replace the right `project uuid` and the right `manager id`.
 }
 ```
 
-## PATCH /tasks/\<uuid:id\>/
+### PATCH /tasks/\<uuid:id\>/
 
 
 Modify a task sending partial information about the fields to change.
