@@ -4,7 +4,6 @@ import {ThemeProvider} from 'emotion-theming';
 import {theme} from '@kalo/ui';
 import styled, {injectGlobal} from 'react-emotion';
 
-import Header from '../components/header';
 import Aside from '../components/aside';
 
 const StyledFlexContainer = styled('div')`
