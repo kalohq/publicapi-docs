@@ -25,7 +25,7 @@ Freelancer resources currently expose the following fields:
 - youtube
 
 
-The value of custom_data varries as a result of the set of onboarding templates assigned to the specific freelancer. The data will be returned as a collection of keys / values grouped by template name.
+The value of custom_data varries as a result of the set of onboarding templates assigned to the specific freelancer. These are a set of key and value data pairs provided by the customer which may include any type of unstructured data useful to the onboarding and management of the freelancer for example type of equipment, location availability, and banking preferences. The data will be returned as a collection of keys / values grouped by template name. 
 
 # Endpoints
 
